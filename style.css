@@ -2,18 +2,37 @@ body {
     background-color: #ffffff;
     margin: 0px;
 }
-.seat {
-    background-color: gray;
-    float: left;
+
+.MainContainer {
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-flex;    
 }
-.seat img {
+
+.seat {
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: gray;
+    max-width: 400px;
+    margin-left: 0px;
+
+}
+.Toyota {
+    background-color: lightblue;
+    max-width: 400px;
+    margin-right: 0px;
+}
+/*.seat img {
     width: 240px;
     height: 118px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 35%;
     padding-right: 50%; 
-}
+}*/
 ul {
     list-style-type: none;
     margin: 0;
