@@ -3,6 +3,7 @@
             <title>Gemme</title>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
             <link rel="stylesheet" type="text/css" href="style.css">
+            <script src="login.js"></script>
         </head>
         <header>
             <nav>
@@ -18,7 +19,15 @@
             <div class="MainContainer">
                 <p>Hej med dig</p>
                 <p>Hej snapchat!!! <3</p>
+                <form id="form_id" method="post" name="myform">
+                    <label>BrugerNavn :</label>
+                    <input type="text" name="username" id="username"/>
+                    <label>Password :</label>
+                    <input type="password" name="password" id="password"/>
+                    <input type="button" value="Login" id="submit" onclick="validate()"/>
+                </form>
             </div>
+            
             
     
         </body>
