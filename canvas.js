@@ -16,9 +16,11 @@ async function draw() {
     while(x < 5000) {
         x = y/2;
         y++;
+
         if(x == 1000) {
             x = 1;
-        } else {
+        } 
+        else {
             ctx.moveTo(100,50);
             ctx.lineTo(200,x);
             ctx.stroke();
